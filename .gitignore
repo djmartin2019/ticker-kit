@@ -1,0 +1,42 @@
+# Node modules
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+.eggs/
+*.sqlite3
+
+# Environment variables
+.env
+.env.*
+
+# Data directories (sensitive or large files)
+data/bronze/
+data/silver/
+data/gold/
+data/demo/
+
+# Build outputs
+dist/
+build/
+.cache/
+*.log
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# IDE/editor configs
+.vscode/
+.idea/
+.DS_Store
+*.swp
+*.swo
+
